@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:"TakeoverAi",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  }
 })
